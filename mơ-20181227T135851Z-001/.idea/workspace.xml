@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5c51352-7e93-49b0-be2e-5593cd4cb2cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mơ/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/learn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/root_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/compare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mơ/mysite/polls/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mơ/mysite/polls/templatetags/flashcard_extras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/.idea/My_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/.idea/My_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/migrations/0002_auto_20181216_1931.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/migrations/0003_choice_votes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/migrations/0004_auto_20181216_2153.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/migrations/0005_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/migrations/0006_video_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/home/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/Buf.png" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/about/Buf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/Dog.png" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/about/Dog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/Huou.png" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/about/Huou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/Mouse.png" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/static/about/Mouse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/polls/123.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/static/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/MVC.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/MVC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/alphabet.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Japanese/alphabet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/static.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/base_visitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/base_visitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/compare.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/databasesupport.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/databasesupport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Japanese/dialog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/form_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/form_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/hiragana.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Japanese/hiragana.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/katakana.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Japanese/katakana.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/structure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/website.html" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mơ/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mơ/mysite/polls/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/base_visitor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/nasa.PNG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2210">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mơ/mysite/mysite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/flip.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>id</find>
+      <find>base.</find>
+      <find>base.html</find>
+      <find>about.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mơ" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/admin.py" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/back_root_template.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/forms.py" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/learn.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/dialog.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/index.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/base.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/show.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/models.py" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/root_template.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/urls.py" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/flip.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/base.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/mơ/mysite/polls/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="773" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NGAN VO\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\templates\pages\Flashcards" />
+      <recent name="C:\Users\NGAN VO\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\static" />
+      <recent name="C:\Users\NGAN VO\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls" />
+      <recent name="C:\Users\NGAN VO\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\static\polls\audio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FptshopVlg\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\static\about" />
+      <recent name="C:\Users\FptshopVlg\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\templates\pages\Login" />
+      <recent name="C:\Users\FptshopVlg\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\templates\pages\Q&amp;A" />
+      <recent name="C:\Users\FptshopVlg\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\templates\pages\Japanese" />
+      <recent name="C:\Users\FptshopVlg\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\templates\pages\home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c51352-7e93-49b0-be2e-5593cd4cb2cf" name="Default Changelist" comment="" />
+      <created>1545964699276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545964699276</updated>
+      <workItem from="1545964701384" duration="4859000" />
+      <workItem from="1545970538185" duration="368000" />
+      <workItem from="1545970940140" duration="5188000" />
+      <workItem from="1546001186936" duration="6202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16617000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18601191" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32411674" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30261138" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32922536" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32906404" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15477997" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30529594" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32922536" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32906404" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/PYTHON3/Lib/site-packages/django/utils/dateparse.py" />
+    <entry file="file://D:/PYTHON3/Lib/site-packages/django/db/backends/sqlite3/base.py" />
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PYTHON3/Lib/site-packages/django/template/backends/django.py" />
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/flashcard/js/flip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/structure.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/flashcard/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/flashcard/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Japanese/dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/back_root_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/root_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/flip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="97" column="29" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/form_template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/compare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="141" column="21" lean-forward="true" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/base_visitor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/nasa.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
