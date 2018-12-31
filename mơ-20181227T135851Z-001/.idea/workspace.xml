@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="425">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/base_visitor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="493">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -112,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2210">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
@@ -120,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mơ/mysite/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="357">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -157,6 +157,28 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mơ" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/mơ" source="my" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/mơ" source="origin/mo-ttv" />
+                <branch-info repo="$PROJECT_DIR$/mơ" source="origin/my" />
+                <branch-info repo="$PROJECT_DIR$/mơ" source="origin/ari" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,10 +195,10 @@
         <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/root_template.html" />
         <option value="$PROJECT_DIR$/mơ/mysite/polls/urls.py" />
         <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/flip.html" />
-        <option value="$PROJECT_DIR$/mơ/mysite/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/base.html" />
         <option value="$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html" />
         <option value="$PROJECT_DIR$/mơ/mysite/polls/views.py" />
+        <option value="$PROJECT_DIR$/mơ/mysite/mysite/urls.py" />
       </list>
     </option>
   </component>
@@ -191,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,13 +261,21 @@
               <item name="mơ" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mơ-20181227T135851Z-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mơ-20181227T135851Z-001" type="462c0819:PsiDirectoryNode" />
+              <item name="mơ" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
               <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +335,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18601191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18601191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,7 +348,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.30261138" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -479,43 +510,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/flip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="97" column="29" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/10.jpg" />
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/9.jpg" />
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/base.html" />
     <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/form_template.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -534,11 +531,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/index.html" />
     <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Q&amp;A/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -551,23 +544,47 @@
         <state relative-caret-position="-1224" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Login/base_visitor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="493">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/nasa.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/static/home/8.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mơ/mysite/polls/templates/pages/Flashcards/flip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mơ/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="357">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
