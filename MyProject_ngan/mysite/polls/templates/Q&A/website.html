@@ -1,0 +1,68 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+
+
+<!-- Second Container -->
+<div class="container-fluid bg-1">
+  {% load static %}
+<!--<img src="{%static 'image/1.jpg' %}" alt="My - image">-->
+    <center><h2 class="margin"><strong>CÁC TRANG WEB ĐƯỢC XÂY DỰNG BẰNG DJANGO</strong></h2></center>
+   <ul>
+       <div class row>
+           <div class= "col-sm-4">
+
+              <center>
+                    <img src= "{% static 'youtube.PNG' %}"  style="display:inline" alt="Image1" width="400" height="250">
+                  <div class="desc"><a href="https://www.youtube.com/?gl=VN"><font color="white">youtube</font></a></div>
+              </center>
+            </div>
+
+
+               <div class= "col-sm-4">
+                <center>
+                        <img src= "{% static 'reddit.PNG' %}"  style="display:inline" alt="Image1" width="400" height="250">
+                    <div class="desc"><a href="https://www.reddit.com/"><font color="white">reddit</font></a></div>
+                </center>
+        </div>
+
+                 <div class= "col-sm-4">
+
+                <center>
+                        <img src= "{% static 'bitbucket.PNG' %}"  style="display:inline" alt="Image1" width="400" height="250">
+                    <div class="desc"><a href="https://bitbucket.org/"><font color="white">bitbucket</font></a></div>
+                </center>
+      </div>
+       </div>
+       <div class row>
+                 <div class= "col-sm-4">
+                <center>
+                        <img src= "{% static 'monkey.PNG' %}"  style="display:inline" alt="Image1" width="400" height="250">
+                    <div class="desc"><a href="https://www.surveymonkey.com/"><font color="white">surveymonkey</font></a></div>
+                </center>
+      </div>
+
+           <div class= "col-sm-4">
+
+                <center>
+                        <img src= "{% static 'intagram.PNG' %}"  style="display:inline" alt="Image1" width="400" height="250">
+                    <div class="desc"><a href="https://www.instagram.com/"><font color="white">instargram</font></a></div>
+                </center>
+
+    </div>
+           <div class= "col-sm-4">
+
+                <center>
+                        <img src= "{% static 'nasa.PNG' %}"  style="display:inline" alt="Image1" width="400" height="250">
+                    <div class="desc"><a href="https://www.nasa.gov"><font color="white">NASA</font></a></div>
+                </center>
+
+    </div>
+
+   </div>
+    </ul>
+</div>
+
+<!-- Third Container (Grid) -->
+{% endblock %}

@@ -1,0 +1,29 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-center">
+
+  {% load static %}
+<!--<img src="{%static 'image/1.jpg' %}" alt="My - image">-->
+
+
+  <img src= "{% static 'html.PNG' %}" style="display:inline" alt="Image1" width="720" height="320">
+  <h3>Cấu trúc website </h3>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <row>
+    <p>Phần đầu: header, có thể chứa logo, câu slogan, các liên kết, các banner liên kết, các button, đoạn flash, hoặc các form ngắn như form tìm kiếm,…</p>
+    <p>Phần liên kết toàn cục: global navigation, dùng để chứa các liên kết đến những trang quan trọng trong toàn bộ trang, trong phần này có thể chứa thêm các liên kết con (sub navigation).</p>
+    <p>Phần thân của trang: page body, phần này chứa phần nội dung chính (content) và phần nội dung phụ (sidebar).</p>
+    <p>Phần nội dung chính: content, phần này chứa nội dung chính cần thể hiện cho người dùng xem.</p>
+    <p>Phần nội dung phụ: sidebar, phần này có thể chứa liên kết phụ của từng trang (local navigation), hoặc các banner chứa liên kết liên quan, hoặc có thể dùng để chứa các liên kết quảng cáo,…</p>
+    <p>Phần cuối trang web: footer, phần này thường chứa phần liên hệ như: tên công ty, địa chỉ, số điện thoại, mail liên hệ,… và đặc biệt là copyright, hoặc có thể chứa các liên kết toàn trang, các banner liên kết,…
+    </p>
+        </row>
+</div>
+{% endblock %}
+

@@ -1,0 +1,30 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 ">
+
+      <center><h2 class="margin"><strong>Thiết lập static file trong Django</strong></h2></center>
+
+    <left>
+        <ul>
+            <li>Đầu tiên chúng ta tạo một thư mục có tên là static trong thư mục chính. Django sẽ tự động tìm các file tĩnh trong thư mục </li>
+        <li>Trong thư mục static này chúng ta lại tạo một file CSS có tên là style.css.Với nội dung tùy ý</li>
+        <li>Tiếp theo chúng ta tạo file .html minh họa. Trong đó khai báo</li>
+        <img src= "{% static 'upstatic.PNG' %}"  style="display:inline" alt="Image1" width="800" height="100">
+        <li>Sau đó chúng ta chỉ cần lấy biến static trong cặp thẻ ngoặc kép %% ra và gắn thêm đường dẫn đến các file css, js… của bạn</li>
+        <li >Dòng {% load staticfiles %} sẽ tự động gán đường dẫn đến thư mục  static vào một biến có tên static do Django tự đặt, từ đó bạn chỉ cần lấy biến static là có thể lấy được đường dẫn tuyệt đối đến thư mục này.</li>
+        </ul>
+    </left>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <row>
+
+        </row>
+</div>
+{% endblock %}

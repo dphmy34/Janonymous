@@ -1,0 +1,39 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+<!-- Second Container -->
+<div class="container-fluid bg-1 ">
+
+      <center><h2 class="margin"><strong>Sự khác nhau giữa các gói lệnh admin và manage</strong></h2></center>
+    <left>
+        <h3><b>1. Sơ lược</b></h3>
+        <ul>
+            <li>Manage.py là một trình bao bọc mỏng xung quanh django-admin.py</li>
+            <li>Các lập trình viên có xu hướng viết các trình bao bọc cho 'phần mềm kế thừa'. Các trình bao bọc này cho phép các lập trình viên sử dụng một 'thư viện kế thừa' mà nếu không thì không thể sử dụng</li>
+
+        </ul>
+    </left>
+    <left>
+        <h3><b>2. Điều gì tạo nên sự khác biệt </b></h3>
+        <ul>
+            <li>Django-admin.py là tiện ích dòng lệnh Django đối với các tác vụ quản trị</li>
+        <li>Nhìn vào mã nguồn, tất cả Manage.py đang làm là thiết lập app.sinstall cho môi trường của bạn, sau đó sử dụng phương thức từ django.core.man quản lý để thực thi bất kỳ lệnh nào bạn đã nhập. Vì vậy, về cơ bản, sự khác biệt dựa trên mã nguồn trong Manage.py</li>
+        <li>Manage.py được tạo tự động trong mỗi dự án Django. Manage.py là một trình bao bọc mỏng xung quanh django-admin.py, người sẽ chăm sóc hai điều cho bạn trước khi ủy quyền cho django-admin.py:</li>
+        <li>Nó đặt gói dự án của bạn trên sys.path</li>
+        <li>Nó đặt biến môi trường DJANGO_SETTINGS_MODULE để nó trỏ đến tập tin cài đặt dự án của bạn.</li>
+        <li>Trên  Manage.py là cần thiết bởi vì mỗi tên ứng dụng sẽ khác nhau và bạn phải chỉ định cài đặt ứng dụng của mình để chạy ứng dụng django thành công. Thực sự không có sự khác biệt giữa django-admin và Manage.py ngoại trừ một dòng này</li>
+        <p style="text-indent: 100px">if __name__ == "__main__":</p>
+        <p style="text-indent: 150px">   os.envir.setdefault ("DJANGO_SETTINGS_MODULE", "[Tên ứng dụng] .sinstall")</p>
+        </ul>
+
+    </left>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <row>
+
+        </row>
+</div>
+  {% endblock %}

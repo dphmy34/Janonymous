@@ -1,0 +1,84 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+    <style>
+        .front {
+            position: static;
+        }
+
+    .navigation.row {
+        margin-top: 1%;
+    }
+
+    </style>
+
+    <div class="container">
+       <div id="set-title">
+
+            <span id="id_name">{{ title }}</span>
+            <svg width="28" height="28" style="vertical-align: bottom;">
+
+            </svg>
+            <input id="learn-btn" class="btn btn-default btn-md" value="Learn"  style="background-color:darkorange"
+                   onclick="window.location.href='{% url 'learn' set_id %}'" />
+            <input id="flip-btn" class="btn btn-default btn-md" value="View" style="background-color: plum;"
+                   onclick="window.location.href='{% url 'show' set_id %}'" />
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="card row">
+            <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2
+                        col-xs-8 col-sm-8 col-md-8 col-lg-8 card-container">
+                <div id="card">
+
+                  <div class="card-side front text-center">
+                    <span id="front-content"></span>
+                  </div>
+                  <div class="card-side back text-center">
+                      <span id="back-content"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="navigation row">
+
+            <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3
+                        col-xs-2 col-sm-2 col-md-2 col-lg-2 card-container">
+                <div id="left-card">
+                  <div class="turn-btn text-center" onclick="prevFlip()">
+                      prev
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 card-container">
+                <div id="card-index" class="text-center">
+                </div>
+            </div>
+
+
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 card-container">
+                <div id="right-card">
+                  <div class="turn-btn text-center" onclick="nextFlip()">
+                      next
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'flashcard/js/flip.js' %}"></script>
+    <script>
+        window.onload=function() { playFlip({{ cards|safe }}); };
+
+        $(document).ready(function() {
+            $(".card-side.front").css('position', 'absolute');
+            $(".card-side.back").css('position', 'static');
+        });
+    </script>
+    </div>
+{% endblock %}

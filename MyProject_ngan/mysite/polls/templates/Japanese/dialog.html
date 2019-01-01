@@ -1,0 +1,33 @@
+{%  extends 'home/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-2 text-center">
+  <h1 class="margin"><strong>--JANONYMOUS--</strong></h1>
+  <div class="row">
+      <div class="col-sm-3" >
+          <div id="main-menu" class="list-group text-left">
+              <div id="brand" class="clearfix bg-rd-purple">
+                  Danh Sách Hội Thoại
+                  <a href="#sub-menu" title="Danh Sách Hội Thoại" class="btn btn-default btn-sm pull-right" data-toggle="collapse" aria-expanded="true" data-parent="#main-menu">
+                      <i class="fa fa-align-justify" aria-hidden="false"></i>
+                  </a>
+              </div>
+              <div class="list-group-level1 collapse in" aria-expanded="true" id="sub-menu" style="">
+                  <a href="#" id="01" data-value="01" class="sub-item list-group-item active active-lecture" title=" 01. Bài học 1" data-parent="#sub-menu"> 01. Bài học 1</a>
+                  <a class="a" href="#" id="02" data-value="02" class="sub-item list-group-item" title=" 02. Bài học 2" data-parent="#sub-menu"> 02. Bài học 2</a>
+                  <a class="a" href="#" id="03" data-value="03" class="sub-item list-group-item" title=" 03. Bài học 3" data-parent="#sub-menu"> 03. Bài học 2</a>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/p20c53V_kpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+      </div>
+      <div class="col-sm-3">
+      </div>
+  </div>
+</div>
+  {% endblock %}

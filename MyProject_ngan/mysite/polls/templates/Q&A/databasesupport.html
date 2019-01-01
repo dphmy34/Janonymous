@@ -1,0 +1,76 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+
+<!-- Second Container -->
+<div class="container-fluid bg-3">
+
+    <center><h2 >Database support Django </h2></center>
+
+<table>
+  <tr>
+    <th>Database</th>
+    <th>Django Engine</th>
+    <th>Required package</th>
+  </tr>
+  <tr>
+    <td>MySQL</td>
+      <td>django.db.backends.mysql</td>
+      <td>None, it's included with Django</td>
+
+  </tr>
+  <tr>
+    <td>Oracle</td>
+    <td>django.db.backends.oracle</td>
+    <td>None, it's included with Django</td>
+  </tr>
+  <tr>
+    <td>PostgreSQL</td>
+    <td>django.db.backends.postgresql_psycopg2</td>
+    <td>None, it's included with Django</td>
+  </tr>
+  <tr>
+    <td>SQLite</td>
+    <td>django.db.backends.sqlite3</td>
+    <td>None, it's included with Django</td>
+  </tr>
+  <tr>
+    <td>SAP (Sybase) SQL Anywhere</td>
+    <td>sqlany_django</td>
+    <td>pip install sqlany-django</td>
+  </tr>
+  <tr>
+    <td>IBM DB2</td>
+    <td>ibm_db_django</td>
+    <td>pip install ibm_db_django</td>
+  </tr>
+    <tr>
+    <td>Firebird</td>
+    <td>firebird</td>
+    <td>pip install django-firebird</td>
+  </tr>
+    <tr>
+    <td>ADO -- Microsoft SQL Server</td>
+    <td>sqlserver_ado</td>
+    <td>pip install django-mssql</td>
+  </tr>
+    <tr>
+     <td>ODBC -- Microsoft SQL Server</td>
+    <td>sql_server.pyodbc</td>
+    <td>*pip install django-</td>
+  </tr><tr>
+    <td>Azure SQL Database or other </td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr><tr>
+    <td>ODBC -- Microsoft SQL Server,
+Azure SQL Database or other ODBC compatible database</td>
+    <td>sql_server.pyodbc</td>
+    <td>*pip install django-pyodbc-azure OR pip install django-pyodbc</td>
+  </tr>
+
+</table>
+</div>
+<!--<img src="{%static 'image/1.jpg' %}" alt="My - image">-->
+  {% endblock %}

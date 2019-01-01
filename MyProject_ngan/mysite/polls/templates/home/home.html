@@ -1,0 +1,42 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-left">
+    <ul>
+
+        <div class="row">
+            <div class = "col-sm-4">
+                <li ></font><a href="" ><font color="white">Mô hình kiến trúc được áp dụng trên Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/staticfile/"><font color="white">Thiết lập static file trên Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/website/"><font color="white">5 trang web sử dụng Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/databasesupport/"><font color="white">Các hệ quản trị cơ sở dữ liệu ở Backend được hỗ trợ với Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/compare/"><font color="white">Phân biệt 2 phần lệnh Django-admin.py và Manage.py</font></a></li>
+            </div>
+            <div class = "col-sm-4">
+
+                <ul>
+
+                          <center>
+                      <img src= "{% static 'structure.jpg' %}"  style="display:inline" alt="Image1" width="350" height="450">
+                              <div class="desc"><a href="../MVC"><font color="white">Django hỗ trợ mô hình MVT ( Model – View – Template )</font></a></div>
+                          </center>
+
+                </ul>
+            </div>
+            <div class ="col-sm-4">
+                            <center>
+                                    <img src= "{% static 'html.PNG' %}"  style="display:inline" alt="Image1" width="350" height="450">
+                                <div class="desc"><a href="../structure"><font color="white">Cấu trúc html</font></a></div>
+                            </center>
+                        </div>
+            </div>
+
+    </ul>
+</div>
+{% endblock %}

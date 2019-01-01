@@ -1,0 +1,37 @@
+{%  extends 'pages/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+
+  <img src= "{% static 'structure.jpg' %}" style="display:inline" alt="Image1" width="520" height="320">
+  <h3>Mô hình MVC</h3>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Django hỗ trợ mô hình MVT ( Model – View – Template ), nó cũng tương tự như mô hình MVC giúp quản lý và xây dựng dự án phần mềm có hệ thống hơn.
+</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Chu trình của một request: django nhận được một một request->Dựa vào URL sẽ quyết định view nào sẽ được sử dụng ->View sẽ thao tác với Model lấy dữ liệu từ database sau đó gửi các dữ liệu cần thiết tới Template để Template tạo ra file html và gửi về View sau đó trả về cho người dùng.
+</p>
+
+    </div>
+    <div class="col-sm-4">
+      <p>Nhưng thực chất mô hình chính xác mà Django triển khai được gọi là MVT (model-view-template). Nó không nhất thiết phải trông như thế nào, nhưng dữ liệu nào được trình bày. Khung nhìn mô tả dữ liệu nào bạn nhìn thấy, không phải cách bạn nhìn thấy dữ liệu đó. Nó khác biệt một cách tinh tế</p>
+
+    </div>
+    <div class="col-sm-4">
+      <p>Ưu điểm:
+        <right>
+            <br>Dễ dàng cài đặt, cần gì code nấy
+            <br>Code dễ dọc, do mọi thứ đều thể hiện trong 1 function
+            <br>Luồng dữ liệu tường minh
+            <br>Sử dụng decorators rất đơn giản
+         </right>
+</p>
+
+    </div>
+  </div>
+</div>
+{%endblock%}
