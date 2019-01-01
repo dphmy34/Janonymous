@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load staticfiles %}
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Study Jananese In Jannonymous</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 54px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- First Container -->
+<div class="container-fluid bg-2 text-center">
+  <center><p>Practice make prefect ...</p></center>
+</div>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:8000/janonymous/home/">HOME</a></li>
+        <li><a href="http://localhost:8000/janonymous/vocabulary">VOCABULARY</a></li>
+        <li><a href="http://localhost:8000/janonymous/alphabet/">ALPHABET</a></li>
+        <li><a href="#">GRAMMAR</a></li>
+        <li><a href="http://localhost:8000/janonymous/dialog/">DIALOG</a></li>
+        <li><a href="http://localhost:8000/janonymous/about/">ABOUT</a></li>
+         <li><a href="http://localhost:8000/janonymous/logout/">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-center">
+  <h1 class="margin"><strong>JANONYMOUOS</strong></h1>
+  {% load static %}
+<!--<img src="{%static 'image/1.jpg' %}" alt="My - image">-->
+
+
+  <img src= "{% static 'home/1.jpg' %}" class="img-responsive img-circle margin" style="display:inline" alt="Image1" width="320" height="320">
+  <h3>Studing Japanese 5 minutes everyday!</h3>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3><strong> You want to study Japanese</strong> </h3>.
+  <p></p>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Our goal is to reach Japanese fluency as directly as possible. Unlike a teacher or a textbook, we have the freedom to be ruthless in the path we take to get there</p>
+      <img src="{%static 'home/2.jpg' %}" class="img-responsive margin" style="width:100%" alt="Image2">
+    </div>
+    <div class="col-sm-4">
+      <p>This section is for the true beginner. You know little-to-no Japanese. These first steps you take are especially important because they're going to set a foundation you can build off of.</p>
+      <img src="{%static 'home/3.jpg' %}" class="img-responsive margin" style="width:100%" alt="Image3">
+    </div>
+    <div class="col-sm-4">
+      <p>There are no tests or quizzes to take. You don't have to move at the speed of the slowest learner in your group. All you need to do is follow each step, do the work, and progress.</p>
+      <img src="{%static 'home/4.jpg' %}" class="img-responsive margin" style="width:100%" alt="Image4">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+   <p>Fujinet JSC</p>
+   <p>Website: <a href="https://www.fujinet.net/">https://www.fujinet.net/</a></p>
+   <p>Số điện thoại: 028 3847 7000</p>
+</footer>
+
+</body>
+</html>

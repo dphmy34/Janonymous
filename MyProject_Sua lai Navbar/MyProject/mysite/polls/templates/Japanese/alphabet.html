@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load staticfiles %}
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Study Jananese In Jannonymous</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+  }
+
+  .bg-2 {
+      background-color: #BFCAE6; /* White */
+      color: #976D00;
+  }
+  .bg-4 {
+      background-color: #EEE8AA;
+      color: #1C1C1C;
+  }
+  .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .navbar {
+      padding-top: 10px;
+      padding-bottom: 1px;
+      margin-bottom: 0;
+      font-size: 16px;
+      letter-spacing: 5px;
+  }
+  h1 {
+  letter-spacing: 5px;
+  color: #98FB98;
+  font-family: Impact;
+  font-size: 60px;
+  border: 20px solid transparent;
+  padding: 15px;
+  border-image: url({%static 'border.png' %}) 10% round;
+  border-image-width: 20px;
+  text-shadow: 2px 5px #FF0000;
+}
+  </style>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="{%static 'logo.png' %}" class="img-responsive margin" style="width:100%" alt="ImageLogo">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../home">HOME</a></li>
+        <li><a href="#">VOCABULARY</a></li>
+        <li><a href="#">ALPHABET</a></li>
+        <li><a href="#">GRAMMAR</a></li>
+        <li><a href="#">DIALOG</a></li>
+        <li><a href="../about/">ABOUT</a></li><li><a href="#">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-2 text-center">
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6"><h1 class="margin"><strong>- JANONYMOUS -</strong></h1></div>
+      <div class="col-sm-3 "></div>
+    </div>
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4">
+      <a href="../hiragana/" class="btn btn-primary btn-lg" role="button">BẢNG CHỮ CÁI HIRAGANA</a>
+      <img src="{%static 'hiragana.png' %}" class="img-thumbnail" style="width:100%" alt="ImageHira">
+    </div>
+    <div class="col-sm-4">
+      <a href="../katakana/" class="btn btn-success btn-lg" role="button">BẢNG CHỮ CÁI KATAKANA</a>
+      <img src="{%static 'katakana.png' %}" class="img-thumbnail" style="width:100%" alt="ImageKata">
+    </div>
+    <div class="col-sm-2"></div>
+
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+   <p>Fujinet JSC</p>
+   <p>Website: <a href="https://www.fujinet.net/">https://www.fujinet.net/</a></p>
+   <p>Số điện thoại: 028 3847 7000</p>
+</footer>
+
+
+</body>
+</html>

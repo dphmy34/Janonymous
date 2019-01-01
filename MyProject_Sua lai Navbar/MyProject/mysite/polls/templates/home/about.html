@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Study Jananese In Jannonymous</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 54px;}
+
+  .bg-1 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-3 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <center><p>Practice make prefect ...</p></center>
+</div>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:8000/janonymous/home/">HOME</a></li>
+        <li><a href="#">VOCABULARY</a></li>
+        <li><a href="http://localhost:8000/janonymous/alphabet/">ALPHABET</a></li>
+        <li><a href="#">GRAMMAR</a></li>
+        <li><a href="http://localhost:8000/janonymous/dialog/">DIALOG</a></li>
+        <li><a href="http://localhost:8000/janonymous/about/">ABOUT</a></li>
+         <li><a href="http://localhost:8000/janonymous/logout/">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-2 text-center">
+  <h1 class="margin"><strong>--JANONYMOUS--</strong></h1>
+  <center><h3>初めまして、私たちは  大学のk16 の 学生。</h3></center>
+  <center><h3>これから どうぞよろしくお願いします。</h3></center>
+  <center><h3>ありがとうございます。</h3></center>
+  <div class="row">
+    <div class="col-sm-6">
+        <p><h1>Nguyễn Thị Thúy Mơ</h1></p>
+      {% load static %}
+      <center><img src="{%static 'Dog.png' %}" class="img-responsive margin" style="width:60%" alt="Image2"></center>
+    </div>
+    <div class="col-sm-6">
+       <p><h1>Dương Phi Hiểu My</h1></p>
+      <center><img src="{%static 'Mouse.png' %}" class="img-responsive margin" style="width:60%" alt="Image3"></center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+       <p><h1>Võ Kiều Ngân</h1></p>
+      <center><img src="{%static 'Huou.png' %}" class="img-responsive margin" style="width:60%" alt="Image2"></center>
+    </div>
+    <div class="col-sm-6">
+       <p><h1>Phạm Trần Quốc Thịnh</h1></p>
+      <center><img src="{%static 'Buf.png' %}" class="img-responsive margin" style="width:60%" alt="Image3"></center>
+    </div>
+    <center><p>Mọi người ơi tin được không???</p></center>
+    <center><p>Nhóm Anonymous đã hoàn thành website đầu tiên!!!!!!!</p></center>
+    <center><p>Đầu tiên và cực kì quan trọng, team xin gửi lời cảm ơn sâu sắc đến cô Thư, anh Thân, anh Học, anh Khánh, anh Lý, anh Quang, anh Huy, anh Quân đã dành thời gian và công sức quan tâm chúng em.</p></center>
+    <center><p>Các anh còn lại mong sẽ có dịp tiếp xúc với các anh, vì mọi người chào đón chúng em rất nhiệt tình nhưng hành tung thần bí và tung tích xa xôi nên vẫn chưa có cơ hội nói chuyện :))</p></center>
+    <center><p>Fujinet là công ty đầu tiên chúng em thực tập, nên có nhiều điều mới mẻ, cơ hội đi đôi thách thức.</p></center>
+    <center><p>Team hi vọng sẽ hoàn thành đợt thực tập tốt đẹp, mong mọi người giúp đỡ.</p></center>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-3 text-center">
+   <p>Fujinet JSC</p>
+   <p>Website: <a href="https://www.fujinet.net/">https://www.fujinet.net/</a></p>
+   <p>Số điện thoại: 028 3847 7000</p>
+</footer>
+
+</body>
+</html>

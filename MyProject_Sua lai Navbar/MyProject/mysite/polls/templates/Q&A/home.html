@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load staticfiles %}
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Study Jananese In Jannonymous</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 54px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+  </style>
+     <style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<!-- First Container -->
+<div class="container-fluid bg-2 text-center">
+  <h1 class="margin"><strong>JANONYMOUOS</strong></h1>
+</div>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:8000/janonymous/home/">HOME</a></li>
+        <li><a href="#">VOCABULARY</a></li>
+        <li><a href="http://localhost:8000/janonymous/alphabet/">ALPHABET</a></li>
+        <li><a href="#">GRAMMAR</a></li>
+        <li><a href="http://localhost:8000/janonymous/dialog/">DIALOG</a></li>
+        <li><a href="http://localhost:8000/janonymous/about/">ABOUT</a></li>
+         <li><a href="http://localhost:8000/janonymous/logout/">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-left">
+    <ul>
+
+        <div class="row">
+            <div class = "col-sm-4">
+                <li ></font><a href="" ><font color="white">Mô hình kiến trúc được áp dụng trên Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/staticfile/"><font color="white">Thiết lập static file trên Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/website/"><font color="white">5 trang web sử dụng Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/databasesupport/"><font color="white">Các hệ quản trị cơ sở dữ liệu ở Backend được hỗ trợ với Django</font></a></li>
+            <br>
+                <li><a href="http://localhost:8000/janonymous/compare/"><font color="white">Phân biệt 2 phần lệnh Django-admin.py và Manage.py</font></a></li>
+            </div>
+            <div class = "col-sm-4">
+                <center>
+                    <img src= "{% static 'structure.PNG' %}"  style="display:inline" alt="Image1" width="350" height="450">
+                    <div class="desc"><a href="../MVC"><font color="white">Django hỗ trợ mô hình MVT ( Model – View – Template )</font></a></div>
+                </center>
+            </div>
+            <div class ="col-sm-4">
+                <center>
+                    <img src= "{% static 'html.PNG' %}"  style="display:inline" alt="Image2" width="350" height="450">
+                    <div class="desc"><a href="../structure"><font color="white">Cấu trúc html</font></a></div>
+                </center>
+            </div>
+            </div>
+
+    </ul>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+   <p>Fujinet JSC</p>
+   <p>Website: <a href="https://www.fujinet.net/">https://www.fujinet.net/</a></p>
+   <p>Số điện thoại: 028 3847 7000</p>
+</footer>
+
+</body>
+</html>

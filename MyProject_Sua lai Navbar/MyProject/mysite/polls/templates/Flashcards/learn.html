@@ -1,0 +1,84 @@
+{%  extends 'home/basepage.html' %}
+{% load staticfiles %}
+
+{% block body %}
+    <style>
+        #word-container, #answer-input {
+            font-size: 24px;
+        }
+        #answer-btn {
+            display: inline;
+            font-size: 20px;
+        }
+        #learn-container, #score-container, #result-container, #end-container {
+            border-style: solid;
+            padding: 1%;
+            border-width: 1px;
+        }
+        #learn-container {
+            margin-right: 1%;
+        }
+        .score-info {
+            font-weight: bold;
+        }
+        #correct-count {
+            color: green;
+        }
+        #incorrect-count {
+            color: red;
+        }
+
+    </style>
+    <div class="container">
+         <div id="set-title">
+            <span id="id_name">Learn {{ title }}</span>
+
+            <input id="learn-btn" class="btn btn-default btn-md" value="View" style="background-color: plum;"
+                   onclick="window.location.href='{% url 'show' set_id %}'" >
+            <input id="flip-btn" class="btn btn-default btn-md" value="Flip" style="background-color: yellowgreen"
+                   onclick="window.location.href='{% url 'flip' set_id %}'" >
+        </div>
+    </div>
+    <div class="container">
+        <div id="learn-container" class="container col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div id="word-container">
+            </div>
+            <div>
+                <input id="answer-input">
+                <a id="answer-btn" class="btn btn-default" style="background-color:lightskyblue"   onclick="answerLearn()">Answer </a>
+            </div>
+        </div>
+        <div id="result-container" class="container col-xs-8 col-sm-8 col-md-8 col-lg-8" style="display: none">
+            <div id="result" class=" text-center">
+                RESULT
+            </div>
+            <div id="question" class="container">
+                Q:
+            </div>
+            <div id="correct-answer" class="container">
+                A:
+            </div>
+            <span id="next-container">
+            </span>
+        </div>
+        <div id="score-container" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <p class="score-info">Remaining</p>
+            <p id="remaining-count"></p>
+            <p class="score-info">Correct</p>
+            <p id="correct-count"></p>
+            <p class="score-info">Incorrect</p>
+            <p id="incorrect-count"></p>
+        </div>
+        <div id="end-container" class="container col-xs-8 col-sm-8 col-md-8 col-lg-8" style="display: none;">
+            <p id="correct-count-end">Correct: </p>
+            <p id="incorrect-count-end">Incorrect: </p>
+            <p id="info-end"></p>
+            <span id="next-container-end"></span>
+        </div>
+    </div>
+
+    <script src="{% static 'flashcard/js/learn.js' %}"></script>
+    <script>
+        window.onload=function() { playLearn({{ cards|safe }})};
+    </script>
+{% endblock %}

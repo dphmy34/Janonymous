@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 {% load staticfiles %}
@@ -8,12 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Slider - Start Bootstrap Template</title>
+    <title>JANONYMOUS</title>
 
     <!-- Bootstrap CSS -->
     <link href="{%  static 'flashcard/css/bootstrap.min.css'%}" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{% static 'css/full-slider.css'%}" rel="stylesheet">
+
+
+
 
   </head>
 
@@ -22,7 +26,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">JANONYMOUS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,12 +40,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+            <li class="{% block register_active %}{% endblock %}">
+            	<a href="{%url 'Signup'%}">Register</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="{% block login_active %}{% endblock %}">
+            	<a href="{%url 'login'%}">Log In</a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -55,25 +60,26 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+          <!-- Slide One - Set the background image for this slide in the li55ne below -->
+          <div class="carousel-item active" style="background-image: url('https://images.pexels.com/photos/1510595/pexels-photo-1510595.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260')">
+          <div class="carousel-caption d-none d-md-block">
+              <<h3>HÒA NHẬP</h3>
+              <p>Tiếng Nhật mang bạn đến gần với Nhật Bản hơn.</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
+              <h3>VĂN HÓA</h3>
+              <p>Tiếng Nhật là một phần của nền văn hóa Nhật Bản đầy văn minh và tinh tế.</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+               <h3>CON NGƯỜI</h3>
+              <p>Cùng học tiếng Nhật để kết nối với những con người Nhật Bản xinh đẹp, thân thiện</p>
+
             </div>
           </div>
         </div>
@@ -88,24 +94,23 @@
       </div>
     </header>
 
-    <!-- Page Content -->
+     <!-- Page Content -->
     <section class="py-5">
       <div class="container">
-        <h1>Full Slider by Start Bootstrap</h1>
-        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
-          <code>full-slider.css</code>
-          file.</p>
+        <h1>Easy to use, free to you</h1>
+        <p>Website học tiếng Nhật do nhóm
+          <code>Anonymous</code>
+          phát triển.</p>
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      <p class="m-0 text-center text-white">Copyright &copy;Fujinet JSC </p>
       </div>
       <!-- /.container -->
     </footer>
-
 
    <!-- jQuery -->
     <script src="{% static 'flashcard/js/jquery.min.js' %}"></script>
@@ -116,3 +121,4 @@
   </body>
 
 </html>
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load staticfiles %}
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Study Jananese In Jannonymous</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 54px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- First Container -->
+<div class="container-fluid bg-2 text-center">
+  <center><h1 class="margin"><strong>JANONYMOUOS</strong></h1></center>
+</div>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:8000/janonymous/home/">HOME</a></li>
+        <li><a href="#">VOCABULARY</a></li>
+        <li><a href="http://localhost:8000/janonymous/alphabet/">ALPHABET</a></li>
+        <li><a href="#">GRAMMAR</a></li>
+        <li><a href="http://localhost:8000/janonymous/dialog/">DIALOG</a></li>
+        <li><a href="http://localhost:8000/janonymous/about/">ABOUT</a></li>
+         <li><a href="http://localhost:8000/janonymous/logout/">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 ">
+
+      <center><h2 class="margin"><strong>Sự khác nhau giữa các gói lệnh admin và manage</strong></h2></center>
+    <left>
+        <h3><b>1. Sơ lược</b></h3>
+        <ul>
+            <li>Manage.py là một trình bao bọc mỏng xung quanh django-admin.py</li>
+            <li>Các lập trình viên có xu hướng viết các trình bao bọc cho 'phần mềm kế thừa'. Các trình bao bọc này cho phép các lập trình viên sử dụng một 'thư viện kế thừa' mà nếu không thì không thể sử dụng</li>
+
+        </ul>
+    </left>
+    <left>
+        <h3><b>2. Điều gì tạo nên sự khác biệt </b></h3>
+        <ul>
+            <li>Django-admin.py là tiện ích dòng lệnh Django đối với các tác vụ quản trị</li>
+        <li>Nhìn vào mã nguồn, tất cả Manage.py đang làm là thiết lập app.sinstall cho môi trường của bạn, sau đó sử dụng phương thức từ django.core.man quản lý để thực thi bất kỳ lệnh nào bạn đã nhập. Vì vậy, về cơ bản, sự khác biệt dựa trên mã nguồn trong Manage.py</li>
+        <li>Manage.py được tạo tự động trong mỗi dự án Django. Manage.py là một trình bao bọc mỏng xung quanh django-admin.py, người sẽ chăm sóc hai điều cho bạn trước khi ủy quyền cho django-admin.py:</li>
+        <li>Nó đặt gói dự án của bạn trên sys.path</li>
+        <li>Nó đặt biến môi trường DJANGO_SETTINGS_MODULE để nó trỏ đến tập tin cài đặt dự án của bạn.</li>
+        <li>Trên  Manage.py là cần thiết bởi vì mỗi tên ứng dụng sẽ khác nhau và bạn phải chỉ định cài đặt ứng dụng của mình để chạy ứng dụng django thành công. Thực sự không có sự khác biệt giữa django-admin và Manage.py ngoại trừ một dòng này</li>
+        <p style="text-indent: 100px">if __name__ == "__main__":</p>
+        <p style="text-indent: 150px">   os.envir.setdefault ("DJANGO_SETTINGS_MODULE", "[Tên ứng dụng] .sinstall")</p>
+        </ul>
+
+    </left>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <row>
+
+        </row>
+</div>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+   <p>Fujinet JSC</p>
+   <p>Website: <a href="https://www.fujinet.net/">https://www.fujinet.net/</a></p>
+   <p>Số điện thoại: 028 3847 7000</p>
+</footer>
+
+</body>
+</html>

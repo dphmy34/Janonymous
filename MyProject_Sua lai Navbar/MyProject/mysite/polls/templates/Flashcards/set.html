@@ -1,0 +1,43 @@
+{%  extends 'home/basepage.html' %}
+
+{% block body %}
+
+    <div class="container">
+          <div id="set-title">
+
+            <span id="id_name">{{ title }}</span>
+            <svg width="28" height="28" style="vertical-align: bottom;">
+
+            </svg>
+            <input id="learn-btn" class="btn btn-default btn-md" value="Learn" style="background-color:darkorange"
+                   onclick="window.location.href='{% url 'learn' set_id %}'" />
+            <input id="flip-btn" class="btn btn-default btn-md"  value="Flip" style="background-color: yellowgreen"
+                   onclick="window.location.href='{% url 'flip' set_id %}'" />
+        </div>
+        <table id="set-list" class="table">
+            <thead id="card-cols">
+                <th></th>
+                <th>Terms</th>
+                <th>Definitions</th>
+               <th></th>
+            </thead>
+            <tbody>
+                {% for card in cards %}
+                    <tr id="card-{{ forloop.counter0 }}" class="card">
+                        <td class="counter">{{ forloop.counter0 }}</td>
+                        <td class="card-front">{{ card.front_jap }}</td>
+                        <td class="card-back">{{ card.back_eng }}</td>
+                        <td></td>
+                    </tr>
+                {% endfor %}
+                <script>window.onload=function() { setEmptyCard({{ empty_card_index}}); }</script>
+            </tbody>
+        </table>
+    {% if admin == True %}
+
+    {% endif %}
+    </div>
+
+
+{% endblock %}
+

@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01317edb-a5e8-42f3-a5b1-4ccd91192d9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/DB.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/bitbucket.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/html.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/intagram.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/monkey.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/reddit.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/websiteDjango.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/Q&amp;A/youtube.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/about/Buf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/about/Dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/about/Huou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/about/Mouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a-e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a-i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a-o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a-u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/chi-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/chi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/e-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/e3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/h-fu-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/h-fu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/h-fu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/h-fu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ha-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ha1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ha3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/he-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/he.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/he1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/he3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/hi-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/hi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/hi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/hi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/hiragana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ho-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ho1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ho3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/i-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/i1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/i3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ka-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ka1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ka3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/katakana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ke-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ke1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ke3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ki-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ki1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ki3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ko-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ko1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ko3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ku-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ku1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ku3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ma-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ma1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ma3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/me-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/me1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/me3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mi-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mo-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mu-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/mu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/n-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/n1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/n3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/na-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/na1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/na3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ne-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ne1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ne3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ni-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ni1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ni3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/no-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/no1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/no3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/nu-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/nu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/nu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/nu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/o-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/o1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/o3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ra-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ra1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ra3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/re-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/re.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/re1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/re3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ri-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ri1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ri3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ro-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ro3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ru-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ru1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ru3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/sa-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/sa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/sa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/se-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/se1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/se3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/shi-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/shi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/shi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/shi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/so-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/so.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/so1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/so3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/su-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/su.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/su1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/su3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/t-chi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/t-chi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ta-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ta1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ta3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/te-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/te.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/te1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/te3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/to-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/to1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/to3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/tsu-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/tsu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/tsu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/tsu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/u-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/u1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/u3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wa-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wa1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wo-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/wo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ya-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ya1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/ya3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yo-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yu-kata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/alphabet/yu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/images/home/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Flashcards/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Flashcards/flip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Flashcards/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Flashcards/learn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Flashcards/set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Japanese/alphabet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Japanese/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Japanese/katakana.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Login/base_visitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Login/form_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Login/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/MVC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/compare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/databasesupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/structure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/website.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/home/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/home/basepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/home/lpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templatetags/flashcard_extras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/DB.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/bitbucket.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/html.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/intagram.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/monkey.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/reddit.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/structure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/websiteDjango.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/Q&amp;A/youtube.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/about/Buf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/about/Dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/about/Huou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/about/Mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a-e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a-i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a-o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a-u.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/chi-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/chi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/e-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/e1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/h-fu-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/h-fu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/h-fu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/h-fu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ha-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ha1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ha3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/he-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/he.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/he1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/he3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/hi-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/hi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/hi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/hi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/hiragana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ho-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ho1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ho3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/i-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/i1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/i3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ka-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ka1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ka3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/katakana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ke-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ke1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ke3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ki-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ki1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ki3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ko-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ko1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ko3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ku-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ku1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ku3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ma-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ma1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ma3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/me-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/me1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/me3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mi-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mo-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mu-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/mu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/n-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/n1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/n3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/na-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/na.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/na1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/na3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ne-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ne1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ne3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ni-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ni.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ni1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ni3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/no-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/no1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/no3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/nu-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/nu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/nu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/nu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/o-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/o1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/o3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ra-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ra1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ra3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/re-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/re.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/re1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/re3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ri-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ri1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ri3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ro-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ro1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ro3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ru-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ru1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ru3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/sa-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/sa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/sa1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/sa3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/se-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/se1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/se3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/shi-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/shi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/shi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/shi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/so-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/so.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/so1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/so3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/su-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/su.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/su1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/su3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/t-chi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/t-chi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ta-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ta1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ta3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/te-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/te.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/te1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/te3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/to-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/to.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/to1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/to3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/tsu-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/tsu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/tsu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/tsu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/u-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/u1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/u3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wa-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wa1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wa3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wo-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/wo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ya-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ya1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/ya3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yo-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yu-kata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yu1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/alphabet/yu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/images/home/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/templates/Japanese/alphabet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/templates/Japanese/katakana.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/templates/Login/base_visitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/templates/Login/form_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/templates/Q&amp;A/MVC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/janonymous/templates/home/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0002_auto_20181216_1931.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0003_choice_votes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0004_auto_20181216_2153.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0005_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0006_video_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/polls/123.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/static/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/compare.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/databasesupport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/hiragana.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/Japanese/hiragana.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/structure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/pages/website.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="89" selection-start-line="89" selection-end-line="90" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/basepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1853">
+              <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Flashcards/flip.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/lpage.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/home.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>container</find>
+      <find>title</find>
+      <find>home</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mysite/polls/templates/pages/dialog.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/apps.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/index.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/static/flashcard/css/main.css" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/learn.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/flip.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/set.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/admin.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/static/flashcard/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/Japanese/dialog.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/models.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/views.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/Flashcards/flip.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/Flashcards/index.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/Flashcards/learn.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/home.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/Flashcards/set.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/home/basepage.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/home/about.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Janonymous/MyProject_ngan" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FptshopVlg\Desktop\MyProject\mysite\polls\templates\home" />
+      <recent name="C:\Users\FptshopVlg\Desktop\MyProject\mysite\polls\templates" />
+      <recent name="C:\Users\FptshopVlg\Desktop\MyProject\mysite\polls\static" />
+      <recent name="C:\Users\NGAN VO\Desktop\mơ-20181227T135851Z-001\mơ\mysite\polls\templates\pages\Flashcards" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01317edb-a5e8-42f3-a5b1-4ccd91192d9e" name="Default Changelist" comment="" />
+      <created>1545272662549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545272662549</updated>
+      <workItem from="1546139861256" duration="23293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23293000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19866072" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5833333" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.41666666" side_tool="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5833333" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.41666666" side_tool="true" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/MVC.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/dialog.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/base.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/static/css/bootstrap-reboot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/index.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding>
+            <element signature="e#1099#1115#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/learn.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/show.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/set.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/static/flashcard/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/pages/Flashcards/flip.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/polls/static/flashcard/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Japanese/dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/static/vendor/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/images/Q&amp;A/structure.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/images/Q&amp;A/structure.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Q&amp;A/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1990">
+          <caret line="146" column="18" lean-forward="true" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Flashcards/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Flashcards/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Flashcards/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/Flashcards/flip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/lpage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="89" selection-start-line="89" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/basepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
