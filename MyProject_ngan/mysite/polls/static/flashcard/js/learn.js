@@ -30,7 +30,7 @@ function playLearn(cards) {
     cards.unshift(empty_card);
     current_cards = cards;
 
-    $('#word-container').html(current_cards[current_index]['fields']['back']);
+    $('#word-container').html(current_cards[current_index]["fields"]["front_jap"]);
     $('#remaining-count').html(current_cards.length - 1);
     $('#correct-count').html(0);
     $('#incorrect-count').html(0);
@@ -38,8 +38,8 @@ function playLearn(cards) {
 
 function answerLearn() {
     var result;
-    var question = current_cards[current_index]['fields']['back'];
-    var answer = current_cards[current_index]['fields']['front'];
+    var answer = current_cards[current_index]["fields"]["back_eng"];
+    var question = current_cards[current_index]["fields"]["front_jap"];
     console.log("Question: " + question);
     console.log("Answer: " + answer);
     if($('#answer-input').val() == answer) {
@@ -60,7 +60,7 @@ function answerLearn() {
                 nextLearn();
             }
         });
-        result = 'Incorrect. Copy the answer below to continue.';
+        result = 'Incorrect. Type the answer again to continue.';
     }
 
     if (current_index < current_cards.length) {
@@ -76,7 +76,7 @@ function nextLearn() {
     console.log(current_index);
     if (current_index < current_cards.length - 1) {
         current_index += 1;
-        var question = current_cards[current_index]['fields']['back'];
+        var question = current_cards[current_index]["fields"]["front_jap"];
         $('#next-container').html('');
         $('#word-container').html(question);
         $('#answer-input').val('');

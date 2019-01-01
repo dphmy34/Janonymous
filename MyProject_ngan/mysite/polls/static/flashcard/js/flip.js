@@ -12,9 +12,9 @@ function playFlip(cards) {
     // Add empty card back to the original list
     cards.unshift(empty_card);
     current_cards = cards;
-    $('#front-content').html(current_cards[1]['fields']['front']);
-    $('#back-content').html(current_cards[1]['fields']['back']);
-    $('#card-index').html(current_index + " of " + (current_cards.length - 1));
+    $('#front-content').html(current_cards[1]["fields"]["front_jap"]);
+    $('#back-content').html(current_cards[1]["fields"]["back_eng"]);
+    $('#card-index').html(current_index + " of " + (current_cards.length ));
 }
 
 function prevFlip() {
@@ -30,8 +30,8 @@ function prevFlip() {
         current_index = current_cards.length - 1;
 
     console.log(current_index);
-    $('#front-content').html(current_cards[current_index]['fields']['front']);
-    $('#back-content').html(current_cards[current_index]['fields']['back']);
+    $('#front-content').html(current_cards[current_index]['fields']['front_jap']);
+    $('#back-content').html(current_cards[current_index]['fields']['back_eng']);
     $('#card-index').html(current_index + " of " + (current_cards.length - 1));
 }
 
@@ -48,7 +48,7 @@ function nextFlip() {
         current_index = current_cards.length - 1;
 
     console.log(current_index);
-    $('#front-content').html(current_cards[current_index]['fields']['front']);
-    $('#back-content').html(current_cards[current_index]['fields']['back']);
+    $('#front-content').html(current_cards[current_index]['fields']['front_jap']);
+    $('#back-content').html(current_cards[current_index]['fields']['back_eng']);
     $('#card-index').html(current_index + " of " + (current_cards.length - 1));
 }
